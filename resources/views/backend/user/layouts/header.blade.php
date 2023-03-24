@@ -37,6 +37,11 @@
         body {
             background-color: #f2f3f5;
         }
+        @media (min-width:1400px) {
+            .sidebar-enabled .wrapper {
+                padding-right: 0px;
+            }
+        }
         .pace {
             -webkit-pointer-events: none;
             pointer-events: none;

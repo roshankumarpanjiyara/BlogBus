@@ -76,7 +76,7 @@
                                         @if ($userpost->image)
                                             <div class="image-input-wrapper w-350px h-200px"  style="background-image: url({{asset($userpost->image) }})"></div>
                                         @else
-                                            <div class="image-input-wrapper w-350px h-20px"></div>
+                                            <div class="image-input-wrapper w-350px h-200px"></div>
                                         @endif
                                         <!--end::Preview existing avatar-->
                                         <!--begin::Label-->
