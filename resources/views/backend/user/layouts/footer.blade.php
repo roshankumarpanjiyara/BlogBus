@@ -187,31 +187,31 @@
 <script>
     window.onload= function() {
         var color = '#f39c12';
-        var maxParticles = 150;
+        var maxParticles = 100;
         Particles.init({
             selector: '#particles-js',
             color: color,
             maxParticles: maxParticles,
             connectParticles: true,
-            speed: 0.2,
+            speed: 0.3,
 
             responsive: [{
                 breakpoint:768,
                 options: {
-                    maxParticles:150,
+                    maxParticles:100,
                     color: color,
                     connectParticles:true
                 }
             }, {
                 breakpoint:425,
                 options: {
-                    maxParticles:100,
+                    maxParticles:80,
                     connectParticles:true
                 }
             }, {
                 breakpoint:320,
                 options: {
-                    maxParticles:100,
+                    maxParticles:80,
                     connectParticles:true
                 }
                 }
