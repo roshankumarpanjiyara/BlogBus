@@ -3,8 +3,8 @@
         <canvas id="particles-js"></canvas>
         {{-- @include('notify::messages') --}}
         {{--  Laravel 7 or greater --}}
-        <x:notify-messages />
-        @notifyJs
+        {{-- <x:notify-messages /> --}}
+        {{-- @notifyJs --}}
 		<!--begin::Main-->
 		<!--begin::Root-->
 		<div class="d-flex flex-column flex-root">

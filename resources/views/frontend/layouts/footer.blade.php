@@ -49,7 +49,6 @@
                                 Muragacha (Near HP Petrol Pump) <br>
                                 Sodepur, Kolkata <br>
                                 West Bengal - 700110<br><br>
-                                {{-- <strong>Phone:</strong> <a href="tel:+91 6290972763">+91 6290972763</a><br> --}}
                                 <strong>Email:</strong> <a href="mailto:roshanpanjiyara055@gmail.com">roshanpanjiyara055@gmail.com</a><br>
                             </p>
                         </div>
