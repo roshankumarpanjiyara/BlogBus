@@ -1,6 +1,8 @@
 	<!--begin::Body-->
 	<body id="kt_body" class="sidebar-enabled">
-        <canvas id="particles-js"></canvas>
+        {{-- <canvas id="particles-js"></canvas> --}}
+        <!-- particles.js container -->
+        <div id="particles-js"></div>
         {{-- @include('notify::messages') --}}
         {{--  Laravel 7 or greater --}}
         {{-- <x:notify-messages /> --}}

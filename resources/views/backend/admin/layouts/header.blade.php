@@ -120,14 +120,32 @@
         }
     </style>
     <style>
-        canvas {
+        /* canvas {
             display: block;
-        }
+        } */
 
+        /* #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: block;
+        } */
+
+        /* ---- particles.js container ---- */
         #particles-js {
             position: absolute;
             width: 100%;
             height: 100%;
+            /* background-image: radial-gradient( circle 314px at 95.1% 37.9%,  rgba(255,246,78,1) 1.4%, rgba(242,252,186,1) 100.7% ); */
+            /* background-image: linear-gradient( 93.4deg,  rgba(251,242,138,1) 53.5%, rgba(252,100,35,1) 120% ); */
+            background-color: #ffffff;
+            /* background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%); */
+            background-image: linear-gradient(39deg, rgba(255,255,255,0.9781162464985994) 0%, rgba(252,137,2,1) 100%);
+
+            /* background-image: url(""); */
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50% 50%;
         }
     </style>
 

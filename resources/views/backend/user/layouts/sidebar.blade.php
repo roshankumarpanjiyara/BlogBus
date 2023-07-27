@@ -6,7 +6,9 @@
     {{-- @notifyJs --}}
     <!--begin::Main-->
     <!--begin::Root-->
-    <canvas id="particles-js"></canvas>
+    {{-- <canvas id="particles-js"></canvas> --}}
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
     <div class="d-flex flex-column flex-root">
         <!--begin::Page-->
         <div class="page d-flex flex-row flex-column-fluid">
