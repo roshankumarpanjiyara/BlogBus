@@ -40,8 +40,8 @@ Route::get('auth/google/callback', 'App\Http\Controllers\LoginController@handleG
 
 //admin login
 Route::middleware('admin:admin')->group(function () {
-    Route::get('/admin/login', [App\Http\Controllers\AdminController::class, 'loginForm']);
-    Route::post('/admin/login', [App\Http\Controllers\AdminController::class, 'store'])->name('admin.login');
+    Route::get('admin/login', [App\Http\Controllers\AdminController::class, 'loginForm']);
+    Route::post('admin/login', [App\Http\Controllers\AdminController::class, 'store'])->name('admin.login');
 });
 
 //admin dashboard
